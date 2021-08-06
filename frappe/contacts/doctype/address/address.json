@@ -25,7 +25,8 @@
   "is_shipping_address",
   "disabled",
   "linked_with",
-  "links"
+  "links",
+  "display_city"
  ],
  "fields": [
   {
@@ -143,12 +144,17 @@
    "fieldtype": "Table",
    "label": "Links",
    "options": "Dynamic Link"
+  },
+  {
+   "fieldname": "display_city",
+   "fieldtype": "Data",
+   "label": "Display City"
   }
  ],
  "icon": "fa fa-map-marker",
  "idx": 5,
  "links": [],
- "modified": "2020-10-21 16:14:37.284830",
+ "modified": "2021-08-06 22:26:45.012583",
  "modified_by": "Administrator",
  "module": "Contacts",
  "name": "Address",
